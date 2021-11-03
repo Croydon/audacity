@@ -827,7 +827,7 @@ function(conan_add_remote)
     # Arguments URL and NAME are required, INDEX, COMMAND and VERIFY_SSL are optional
     # Example usage:
     #    conan_add_remote(NAME bincrafters INDEX 1
-    #       URL https://api.bintray.com/conan/bincrafters/public-conan
+    #       URL https://bincrafters.jfrog.io/artifactory/api/conan/public-conan
     #       VERIFY_SSL True)
     set(oneValueArgs URL NAME INDEX COMMAND VERIFY_SSL)
     cmake_parse_arguments(CONAN "" "${oneValueArgs}" "" ${ARGN})
